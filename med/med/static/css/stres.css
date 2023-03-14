@@ -1,0 +1,107 @@
+.card{
+  position: absolute;
+  margin-left: 70%;
+  border-radius: 5px;
+}
+
+#jumb{
+  height: 350px;
+}
+
+.q1{
+  position: absolute;
+  margin-left: 0%;
+  color: black;
+  font-size: 30px;
+}
+
+.q2{
+  position: absolute;
+  margin-left: 40%;
+  color: white;
+  text-align: right;
+}
+
+.card1{
+    position:absolute;
+    top: 470px;
+    background-color: white;
+    margin-left: 1%;
+    border-radius: 5px;
+    
+}
+.card3{
+    position: absolute;
+    background-color: white;
+    margin-left: 1%;
+    top: 1250px;
+    border-radius: 5px;
+}
+
+.popup
+{
+  margin-left: 450px;
+  width: 500px;
+  height: 200px;
+  text-align: center;
+  background: #D3D3D3;
+  border-radius: 6px;
+  padding: 30px 30px;
+  position: absolute;
+  top: 0%;
+  left: 50%;
+  transform: translate(-50%,-50%) scale(0.1);
+  transition: transform 0.4s, top 0.4s;
+  visibility: hidden;
+}
+.showpop
+{
+  visibility: visible;
+  transform: translate(-50%,-50%) scale(1);
+  top: 50%;
+}
+.popupimg
+{
+  width: 50px;
+}
+.popup button
+{
+  margin-top: 10px;
+}
+.wrongbtn
+{
+  background: transparent;
+  float: right;
+  top: -1%;
+  text-decoration: none;
+
+}
+
+.card2{
+    position: absolute;
+    top: 850px;
+    margin-left: 40%;
+    border-radius: 5px;
+    background-color: white;
+}
+
+.card4{
+    position:absolute;
+    top: 1600px;
+    margin-left: 40%;
+    border-radius: 5px;
+    background-color: white;
+
+}
+
+#rm4{
+    position:absolute;
+    top: 120px;
+    margin-right: 10%;
+}
+
+#rm5{
+  position:absolute;
+  top: 160px;
+  margin-right: 10%;
+}
